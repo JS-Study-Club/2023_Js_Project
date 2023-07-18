@@ -1,0 +1,25 @@
+body{background: #fff}
+#wrap{
+    height: 900px; 
+    margin: 0 auto; 
+    font-size: 40px; 
+    color: #fff; 
+    text-transform: uppercase;
+}
+#top_header{
+    height: 130px;
+    text-align: center;
+    padding-top: 10px;
+}
+#down_header{
+    height: 70px;
+    background-color: rgba(175, 40, 72, 0.6);
+    
+}
+.box{
+    width: 358px;
+    height: 608px;
+    border: 5px solid #AF2842;
+    background-color: #fff;
+    border-radius: 10%;
+}
