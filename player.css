@@ -63,7 +63,8 @@ body{
     border-bottom-color: #AF2842;
 }
 #colored-nav {
-    background-color: #EFD4D9;
+    background: rgb(239,212,217);
+    background: linear-gradient(#EFD4D9 90%, #fff 10%);
 }
 input[type="search"] {
     width: 168px;
@@ -145,6 +146,9 @@ input[type="submit"]:focus {
     border-radius: 20px;
     text-align: center;
     margin: 20px;
+}
+.box img {
+    border-radius: 20px;
 }
 
 /* 더보기 버튼 */
