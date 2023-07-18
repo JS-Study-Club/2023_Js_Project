@@ -14,12 +14,56 @@ body{background: #fff}
 #down_header{
     height: 70px;
     background-color: rgba(175, 40, 72, 0.6);
-    
 }
-.box{
+.box1{
+    width: 161px;
+    height: 48px;
+    border: 5px solid #AF2842;
+    background-color: #fff;
+    border-radius: 30px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 11px;
+    text-align: center;
+    font-size: 22px;
+    color: black;
+}
+.box2{
+    width: 161px;
+    height: 48px;
+    border: 5px solid #AF2842;
+    background-color: #fff;
+    border-radius: 30px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 11px;
+    text-align: center;
+    font-size: 22px;
+    color: black;
+}
+.main_nav{
+    display: flex;
+    margin-left: 150px;
+    font-size: 22px;
+    color: black;
+}
+.nav{
+    margin-left: 50px;
+    padding: 30px;
+}
+input[type="search"] {
+    border: 3px solid #AF2842; 
+    border-radius: 5px; 
+    margin-left: 50px;
+    margin-top: 28px;
+    padding: 8px 12px; /* 텍스트와 테두리 사이의 여백 설정 */
+    font-size: 22px; /* 폰트 크기 설정 */
+    width: 250px; /* 검색창의 너비 설정, 필요에 따라 조정 가능 */
+  }
+.box3{
     width: 358px;
     height: 608px;
     border: 5px solid #AF2842;
     background-color: #fff;
-    border-radius: 10%;
+    border-radius: 70px;
 }
