@@ -1,4 +1,6 @@
-body{background: #fff}
+body{
+    background: #fff;
+}
 #wrap{
     height: 900px; 
     margin: 0 auto; 
@@ -53,7 +55,6 @@ body{background: #fff}
 .nav{
     margin-left: 100px;
     margin-top: 40px;
-    margin-bottom: 60px;
     height: 35PX;
     width: 90px;
     text-align: center;
@@ -62,8 +63,7 @@ body{background: #fff}
     border-bottom-color: #AF2842;
 }
 #colored-nav {
-    background-color: rgba(175, 40, 72, 0.6);
-    border: 5px solid #fff
+    background-color: #EFD4D9;
 }
 input[type="search"] {
     width: 168px;
@@ -75,15 +75,92 @@ input[type="search"] {
     padding: 8px 12px; /* 텍스트와 테두리 사이의 여백 설정 */
     font-size: 22px; /* 폰트 크기 설정 */
     width: 250px; /* 검색창의 너비 설정, 필요에 따라 조정 가능 */
-  }
-  input[type="search"]:focus {
+}
+#search-button {    /* 검색 버튼 이미지 설정 */
+    background-image: url(img/검색버튼.png); /* 이미지 경로 설정 */
+    background-size: cover; /* 배경 이미지 크기를 버튼에 맞게 조정 */
+    width: 40px; /* 버튼 너비 설정, 이미지 크기에 맞게 조정 */
+    height: 40px; /* 버튼 높이 설정, 이미지 크기에 맞게 조정 */
+    border: none; /* 테두리 제거 */
+    cursor: pointer; /* 커서 모양 설정 */
+    position: relative; /* 상대적 위치 설정 */
+    top: 13px; 
+    right: 0px;
+    background-color: #fff;
+}
+input[type="search"]:focus {
     border-color: #AF2842; /* 클릭 시 테두리 색상 변경 */
-  }
-.box3{
+}
+/*검색 버튼*/
+input[type="submit"]:focus {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 40px;
+    padding-left: 5px;
+    color: #aaa;
+}
+
+
+.container {
+    width: 100%; /* 브라우저 사이즈가 어떻게 되든 가로로 꽉차게 해줌 */
+    height: auto; /* container의 세로 길이가 가장 긴 div의 길이에 맞춰짐 */
+    display: flex; /* div들이 한 줄로 나열되게 해줌 */
+    justify-content: space-evenly;
+    padding: 120px 0px; /* div의 안쪽 여백 */
+    align-items: center; /* div안에 요소들이 세로 중앙 정렬되게 해줌 */
+    background-color: #fff;
+}
+
+/* 왼쪽 박스 */
+#side_left {
     width: 358px;
     height: 608px;
-    margin-left: 100px;
+}
+
+/* 왼쪽 박스 안에 들어갈 요소 */
+.left-box{
+    width: 100%;
+    height: 100%;
     border: 5px solid #AF2842;
     background-color: #fff;
     border-radius: 70px;
+}
+
+/* 오른쪽 박스 */
+#side_right {
+    /* 특별히 설정할 건 없어서 안햇웅 */
+}
+
+/* 첫번째 줄, 두번째줄 같이 선택 */
+.first_line, .second_line {
+    display: flex;
+}
+
+/* 오른쪽 박스 안에 들어갈 요소 */
+.box {
+    width: 168px;
+    height: 168px;
+    background-color: #fff;
+    border: 3px solid #AF2842;
+    border-radius: 20px;
+    text-align: center;
+    margin: 20px;
+}
+
+/* 더보기 버튼 */
+.more {
+    width: 200px;
+    gap: 30px;
+    display: flex;
+    margin: 0 auto; /*div 가운데 정렬하는 또다른 방법!*/
+}
+
+/* more라는 클래스를 가진 박스 안에 img를 선택 */
+.more img {
+    width: 50px;
+    height: 50px;
+}
+body {
+    overflow-x: hidden;
+    margin: 0 auto;
 }

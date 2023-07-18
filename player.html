@@ -24,12 +24,41 @@
             <div class="nav">외야수</div>
             <div class="nav">육성선수</div>
             <form>
-                <input type="search" name="search" placeholder="선수명을 입력하세요.    ">
-                <input type="submit" value="검색">
-            </form>
+                <input type="search" name="search" placeholder="검색어를 입력하세요...">
+                <input type="submit" value="" id="search-button"> <!-- 이미지 버튼 -->
+            </form>              
         </div>
+        
+    <!-- container는 말그대로 left, right 박스를 담는 통이라고 생각하면 돼 -->
+    <div class="container">
+
+        <!-- 대문짝만하게 나올 선수 박스 -->
         <div id="side_left">
-            <div class="box3"></div>
+            <div class="left-box"></div>
+        </div>
+
+        <!-- 작게 여러 명 나올 선수 박스 -->
+        <!-- 이거는 방법이 여러개인데 -->
+        <!-- 한줄에 박스 4개 들어가는 박스 두 개로 넣는 거로 할게!-->
+        <div id="side_right">
+            <div class="first_line">
+                <div class="box">박스 1</div>
+                <div class="box">박스 2</div>
+                <div class="box">박스 3</div>
+                <div class="box">박스 4</div>
+            </div>
+            <div class="second_line">
+                <div class="box">박스 5</div>
+                <div class="box">박스 6</div>
+                <div class="box">박스 7</div>
+                <div class="box">박스 8</div>
+            </div>
+            <!-- 더보기 버튼도 있길래 혹시나 해서 만들어둘게 -->
+            <div class="more">
+                <!-- 이미지는 저거 삼각형 넣으면 돼 이건 임시! -->
+                <img src="https://mo2mo2.kr/images/icon/comment-add-view.png" alt="">
+                <p>더보기</p>
+            </div>
         </div>
     </div>
 
