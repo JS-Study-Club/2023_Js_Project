@@ -153,16 +153,16 @@ input[type="submit"]:focus {
 
 /* 더보기 버튼 */
 .more {
-    width: 200px;
-    gap: 30px;
+    width: 141px;
+    gap: 32.74px;
     display: flex;
     margin: 0 auto; /*div 가운데 정렬하는 또다른 방법!*/
 }
 
 /* more라는 클래스를 가진 박스 안에 img를 선택 */
 .more img {
-    width: 50px;
-    height: 50px;
+    width: 139px;
+    height: 32.74px;
 }
 body {
     overflow-x: hidden;
