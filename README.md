@@ -2,7 +2,7 @@
 js 상반기 프로젝트_야구
 <br>
 ## ⏱️ Period
-- 
+- 2023.06.19. ~ 2023.07.24.
 
 ## 🛠️ Development Environment
 - HTML + CSS + JS
